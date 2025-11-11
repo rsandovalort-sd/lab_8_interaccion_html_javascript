@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header>
+        <h1>Encuesta sobre intereses de carrera</h1>
+    </header>
+
+    <div class= "contenedor">
+        <form action="">
+            <label>Cual de las siguientes opciones escogería para especializarse como desarrollador: </label>
+            <div class="subcontenedor">
+                <input type="radio" name="opcion" value="Front-end"> Front-end
+                <input type="radio" name="opcion" value="Back-end"> Back-end
+                <input type="radio" name="opcion" value="Fullstack"> Fullstack
+                <button type="button" id="boton" onclick="registrarVoto()"> Registrar</button>
+            </div>
+            <div>
+                <span id="votos-js"></span>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
