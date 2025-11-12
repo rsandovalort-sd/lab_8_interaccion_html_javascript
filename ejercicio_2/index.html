@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de compras</h1>
+        <div>
+        <p>Total de items agregados: <span id="total-items">0</span></p>
+        <p>Precio total de productos: <span id="total-compra">0</span> </p>
+        <button type="button" onclick="vaciarCarrito()">Vaciar carrito</button>
+        </div>
+    </header>
+    
+    <figure class="contenedor">
+        <img src="./img/tenis.jpg" alt="Tenis">
+        <figcaption>Tenis_3   Precio: <span id="precio_1" class="precio">15</span></figcaption> 
+        <button type="button" id="boton_1" onclick="actualizarSumar(this)">Agregar al carrito</button>
+          
+    </figure>
+    <figure class="contenedor">
+        <img src="./img/tenis_2.jpg" alt="Tenis">
+        <figcaption>Tenis_2   Precio: <span id="precio_2" class="precio">10</span></figcaption>
+        <button type="button" id="boton_2" onclick="actualizarSumar(this)">Agregar al carrito</button>
+    </figure>
+    <figure class="contenedor">
+        <img src="./img/tenis_3.jpg" alt="Tenis">
+        <figcaption>Tenis_3   Precio: <span id="precio_3" class="precio">5</span></figcaption>
+        <button type="button" id="boton_3" onclick="actualizarSumar(this)">Agregar al carrito</button>
+    </figure>
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

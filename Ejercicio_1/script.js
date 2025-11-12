@@ -5,7 +5,7 @@ function registrarVoto(){
     for( let radio of radios){
         if(radio.checked){
             seleccion = radio.value;
-            // alert("¡Gracias por tu voto!");
+            alert("¡Gracias por tu voto!");
             votos += 1;
             document.getElementById("votos-js").innerHTML = votos;
             break
